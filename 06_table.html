@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <table border="1">
+    <tr>
+      <th>First name</th>
+      <th>Last name</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <th>일남</th>
+      <th>김</th>
+      <th>99</th>
+    </tr>
+    <tr>
+      <th>이남</th>
+      <th>김</th>
+      <th>98</th>
+    </tr>
+    <tr>
+      <th>삼남</th>
+      <th>김</th>
+      <th>97</th>
+    </tr>
+  </table>
+
+  <hr />
+
+  <table border="5">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th colspan="2">Tel</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>김일남</th>
+        <th>051-123-4567</th>
+        <th>010-1234-5678</th>
+      </tr>
+      <tr>
+        <th>김이남</th>
+        <th>051-123-4567</th>
+        <th>010-1234-5678</th>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr />
+
+  <table>
+    <caption>
+      2개의 row를 span
+    </caption>
+    <tr>
+      <th>Name</th>
+      <td>김일남</td>
+    </tr>
+    <tr>
+      <th rowspan="2">Tel</th>
+      <td>010-1234-5678</td>
+    </tr>
+    <tr>
+      <td>051-123-4567</td>
+    </tr>
+  </table>
+</body>
+</html>
